@@ -141,7 +141,7 @@ public class MqttBroadcastService extends Service {
                 .setColor(ResourcesCompat.getColor(getResources(), R.color.colorPrimary, null))
                 .setShowWhen(false)
                 .setContentIntent(startAppIntent)
-                .setPriority(NotificationCompat.PRIORITY_MIN)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setOngoing(true);
             
             // notificationId is a unique int for each notification that you must define
